@@ -15,8 +15,8 @@ import java.util.List;
 @ControllerAdvice
 public class ExceptionHandlerController {
 
-    private MessageSource messageSource;
-    
+    private MessageSource messageSource; // obtém mensagens de erro
+
     public ExceptionHandlerController(MessageSource messageSource) {
         this.messageSource = messageSource;
     }
